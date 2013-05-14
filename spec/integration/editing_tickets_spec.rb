@@ -20,4 +20,10 @@ feature "Editing tickets" do
     end
     page.should_not have_content ticket.title
   end
+
+  scenario "Updating a ticket with invalid information" do
+    fill_in "Title", with: ""
+    click_button "Update Ticket"
+    page.should have_content("Ticket has not been updated.")
+  end
 end
