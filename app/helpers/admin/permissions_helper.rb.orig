@@ -1,0 +1,10 @@
+module Admin::PermissionsHelper
+<<<<<<< Updated upstream
+=======
+  def permissions
+    {
+      "view" => "View"
+    }
+  end
+>>>>>>> Stashed changes
+end
