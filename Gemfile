@@ -54,3 +54,4 @@ end
 
 gem 'devise', '2.1.0'
 gem 'cancan', '1.6.7'
+gem 'paperclip', '2.7.0'

@@ -16,3 +16,5 @@
 
 # sublime
 *.sublime*
+
+/public/system
