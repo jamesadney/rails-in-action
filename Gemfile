@@ -5,6 +5,7 @@ gem 'dynamic_form', '1.1.4'
 
 group :production do
   gem 'pg'
+  gem 'unicorn'
 end
 
 # Bundle edge Rails instead:
