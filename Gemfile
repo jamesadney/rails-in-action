@@ -3,11 +3,12 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'dynamic_form', '1.1.4'
 
+group :production do
+  gem 'pg'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
-
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -44,6 +45,7 @@ group :test, :development do
   gem 'pry-doc'
   gem 'pry-debugger'
   gem 'launchy'
+  gem 'sqlite3'
 end
 
 group :test do
